@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dakkah Caffee</title>
+  <script src="javas.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <a href="index.html" id="logo">
+      <img src="images/dakka.png" alt=" الموقع">
+    </a>
+    <div class="navbar-nav">
+      <ul class="navbar-nav">
+        <li><a href="index.html"><h2>الرئيسية</h2></a></li>
+
+        <li class="dropdown">
+          <span>قائمة الطعام</span>
+          <ul class="dropdown-content" >
+            <li><a href="drinks.html">المشروبات</a></li>
+            <li><a href="foods.html">المأكولات</a></li>
+            <li><a href="sweets.html">الحلويات</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="order.html"><h2>اطلب الآن</h2></a></li>
+        <li><a href="offer.html"><h2>ما نتميز به</h2></a></li>
+        <li><a href="about.html"><h2>حولنا</h2></a></li>
+      </ul>
+      <h4><div id="result-container"></div></h4>
+    </div>
+  </header>
+
+   <section class="order-section" id="order">
+    
+
+    <div class="order-row">
+      <div class="order-col">
+        <div class="order-card">
+          <img src="./images/gallery.jpg" alt="صورة الطعام">
+        </div>
+      </div>
+      <div class="order-col">
+        <h1>اطلب طعامك</h1>
+        <form action="#">
+
+          <div class="order-input">
+            <input type="text" class="order" id="name" placeholder="ادخل اسم الطلب" required>
+          </div>
+
+          <div class="order-input">
+            <input type="text" class="order" id="yourname" placeholder=" ادخل اسمك " required>
+          </div>
+
+          <div class="order-input">
+            <input type="number" class="order" id="number" placeholder="ادخل رقم هاتفك" required>
+          </div>
+
+          <textarea class="order" id="comment" rows="5"  placeholder="ادخل عنوانك" required></textarea>
+
+          <button type="submit"  class="order-btn">إرسال</button>
+
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <P style="text-align: center;"> 
+  &copy; حقوق النشر محفوظة لدى&nbsp; 
+  كافية دكة<br>
+    <span>تم التصميم بواسطة <a href="http://wa.me//+967734277784" style="color:#bc9667; text-decoration: none;">
+      <strong> AZ</strong></a></span>
+    </P>
+</footer>
+</body>
+</html>
+
